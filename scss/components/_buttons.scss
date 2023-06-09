@@ -1,0 +1,13 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.nav-btn{
+    background: blue;
+    padding: 0.5rem ;
+
+}
+
+.nav-btn:hover{
+    background-color: green;
+    color: red !important;
+}
