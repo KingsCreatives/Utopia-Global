@@ -11868,6 +11868,27 @@ textarea.form-control-lg {
   color: red !important;
 }
 
+.display-2 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+.display-2--intro {
+  display: inline-block;
+  font-weight: 700;
+}
+.display-2--desc {
+  display: block;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1.2rem;
+}
+@media (min-width: 992px) {
+  .display-2--desc {
+    font-size: 1.4rem;
+    display: inline-block;
+  }
+}
+
 .nav-menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
@@ -11878,6 +11899,13 @@ textarea.form-control-lg {
   color: white !important;
   font-weight: 600;
   text-transform: capitalize;
+}
+
+.home {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  padding: 10rem 0 0 0;
+  height: 100%;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
