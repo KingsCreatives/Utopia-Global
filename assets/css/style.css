@@ -11858,14 +11858,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.nav-btn {
-  background: blue;
-  padding: 0.5rem;
-}
-
 .nav-btn:hover {
-  background-color: green;
-  color: red !important;
+  color: black !important;
 }
 
 .display-2 {
@@ -11890,7 +11884,7 @@ textarea.form-control-lg {
 }
 
 .nav-menu {
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  background: #2b69ff;
 }
 .nav-menu li {
   padding: 0 0.8rem;
@@ -11902,8 +11896,8 @@ textarea.form-control-lg {
 }
 
 .home {
-  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
-  padding: 10rem 0 0 0;
+  background: #2b69ff;
+  padding: 10rem 3rem 0 0;
   height: 100%;
   width: 100%;
 }
