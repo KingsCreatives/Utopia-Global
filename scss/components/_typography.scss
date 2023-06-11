@@ -1,6 +1,8 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
+// Intro Styles
+
 .display-2{
     margin-bottom: 1rem;
     text-transform: capitalize;
@@ -38,4 +40,26 @@
 
 .intro-btn:hover{
     color: black !important;
+}
+
+
+// Trusted Companies
+.heading-line::before{
+    content: "";
+    width: 20rem;
+    height: 0.1rem;
+    display: block;
+    background: $primary;
+    margin: 0 auto;
+}
+
+.heading-line::after{
+    content: "";
+    width: 5rem;
+    height: 0.4rem;
+    padding-top: 0.5rem;
+    display: block;
+    background: $primary;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
