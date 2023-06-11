@@ -13,4 +13,8 @@
             text-transform: capitalize;
         }
     }
+
+    li a:hover{
+        text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    }
 }

@@ -11883,6 +11883,17 @@ textarea.form-control-lg {
   }
 }
 
+.intro-btn {
+  color: white !important;
+  font-weight: 800;
+  text-transform: capitalize;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.intro-btn:hover {
+  color: black !important;
+}
+
 .nav-menu {
   background: #2b69ff;
 }
@@ -11893,6 +11904,9 @@ textarea.form-control-lg {
   color: white !important;
   font-weight: 600;
   text-transform: capitalize;
+}
+.nav-menu li a:hover {
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
 }
 
 .home {

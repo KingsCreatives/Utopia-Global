@@ -22,3 +22,20 @@
         }
     }
 }
+
+
+.intro-btn{
+    color: white !important;
+    font-weight: 800;
+    text-transform: capitalize;
+    padding: 1rem;
+    font-size: 1rem;
+
+    @media screen and (max-width: 600px){
+        
+    }}
+
+
+.intro-btn:hover{
+    color: black !important;
+}
