@@ -25,6 +25,13 @@
     }
 }
 
+.display-6{
+    font-size: 1.2rem;
+    @include media-breakpoint-up(lg){
+        font-size: 1.8rem;
+    }
+}
+
 
 .intro-btn{
     color: white !important;
@@ -32,10 +39,7 @@
     text-transform: capitalize;
     padding: 1rem;
     font-size: 1rem;
-
-    @media screen and (max-width: 600px){
-        
-    }}
+}
 
 
 .intro-btn:hover{
@@ -43,23 +47,18 @@
 }
 
 
-// Trusted Companies
-.heading-line::before{
-    content: "";
-    width: 20rem;
-    height: 0.1rem;
-    display: block;
-    background: $primary;
-    margin: 0 auto;
-}
+.display-3{
 
-.heading-line::after{
-    content: "";
-    width: 5rem;
-    height: 0.4rem;
-    padding-top: 0.5rem;
-    display: block;
-    background: $primary;
-    margin: 0 auto;
-    margin-bottom: 1rem;
+    &--title{
+        font-size: 1.2rem;
+        font-weight: 600;
+         display: inline-block;
+         background-image: linear-gradient(to right, $primary, $secondary);
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+
+        @include media-breakpoint-up(lg){
+            font-size: 1.8rem;
+        }
+    }
 }
