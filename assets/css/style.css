@@ -11960,6 +11960,7 @@ textarea.form-control-lg {
 }
 .nav-menu li {
   padding: 0 0.8rem;
+  font-size: 0.9rem;
 }
 .nav-menu li a {
   color: white !important;
@@ -11967,7 +11968,7 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 .nav-menu li a:hover {
-  text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+  border-bottom: 1px solid #fff;
 }
 
 .home {
