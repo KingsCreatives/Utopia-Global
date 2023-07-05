@@ -12051,4 +12051,49 @@ textarea.form-control-lg {
   background-color: #2b69ff;
 }
 
+.testimonials {
+  color: white;
+  position: relative;
+  padding: 0;
+  background: #2b69ff;
+}
+.testimonials__card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 1.25rem;
+  border-radius: 0.625rem;
+  height: auto;
+  text-align: center;
+  color: black;
+}
+.testimonials__card p {
+  font-size: 1.2rem;
+}
+.testimonials__card p .fa-star {
+  font-size: 1.3rem;
+}
+.testimonials__img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 6rem;
+  height: 6rem;
+}
+.testimonials__img img {
+  border: 0.325rem solid rgba(43, 105, 255, 0.35);
+}
+.testimonials__info {
+  font-weight: 500;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.testimonials__info h3 {
+  padding-top: 0.8rem;
+  text-transform: capitalize;
+}
+.testimonials__info p {
+  padding-bottom: 1rem;
+  text-transform: capitalize;
+}
+
 /*# sourceMappingURL=style.css.map */
