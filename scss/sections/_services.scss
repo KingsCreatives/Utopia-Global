@@ -9,6 +9,10 @@
     &__content{
         padding: 1rem;
         margin-top: 0;
+
+        a{
+            text-decoration: none;
+        }
         
         p{
             font-size:0.8rem;

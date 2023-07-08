@@ -2,47 +2,10 @@
 @use'../components/mixins'as*;
 
 
-// .contact{
-//     padding: 4rem 0;
-//     background-color: $gray-200 ;
-//     text-align: center;
-
-   
-// }
-
-// .cta-info{
-//     padding: 3rem;
-    
-//     &__list{
-//         position: relative;
-//         padding: 0.5rem 0 0 0.5rem; 
-//         list-style: none;
-//         display: block ;
-//         text-align: left;
-
-//         li{
-//             margin-bottom: 0.5rem;
-//             i{
-//                 margin-right: 1rem;
-//             }
-//         }
-//     }
-
-    
-// }
-
-// // form
-// .form{
-//     padding: 1rem;
-
-//     button{
-//         border: none;
-//         color: $white; 
-//     }
-// }
 .get-started {
     padding: 4rem 0;
     background-color: $gray-200;
+    margin: 2.5rem 0 5rem 0;
 }
 
 .cta-info {

@@ -1,0 +1,89 @@
+@use'../custom'as*;
+ @use'../components/mixins'as*;
+
+ .footer{
+    margin-top: 5rem;
+    padding: 5rem 0;
+    background: $primary;
+    color: #fff;
+
+    &__useful-links{
+        text-align: center;
+        margin: 1rem 0;
+        border-top: 2px solid #fff;
+
+        h3{
+            margin-top: 1rem;
+        }
+    
+        li{
+            list-style: none;
+            padding: 0.25rem;
+
+        }
+    
+        a{
+            text-decoration: none;
+            color : #fff;
+            padding: 0.25rem;
+
+            &:hover{
+                cursor: pointer;
+                @include transitionProperty;
+                border-bottom: 2px solid #fff;
+            }
+        }
+
+        @include media-breakpoint-up(md){
+            color: #fff;
+            margin-top: 0;
+            border: none;
+            text-align: left;
+
+            h3{
+                margin-top: 0;
+            }
+        }
+
+        
+        
+    }
+
+
+    &__get-in-touch{
+         text-align: center;
+        margin-top: 1rem;
+        border-top: 2px solid #fff;
+
+        h3{
+            margin-top: 1rem;
+        }
+
+         p{
+            cursor: pointer;
+
+        }
+
+        i{
+            margin-right: 0.5rem;
+        }
+
+        @include media-breakpoint-up(md){
+            margin-top: 0;
+            border: none;
+        }
+    }
+
+    &__our-message{
+        text-align: center;
+
+        button{
+            // background: ;
+        }
+
+        @include media-breakpoint-up(md){
+            text-align: left;
+        }
+    }
+    
+ }

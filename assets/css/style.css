@@ -12009,6 +12009,9 @@ textarea.form-control-lg {
   padding: 1rem;
   margin-top: 0;
 }
+.services__content a {
+  text-decoration: none;
+}
 .services__content p {
   font-size: 0.8rem;
 }
@@ -12150,6 +12153,7 @@ textarea.form-control-lg {
 .get-started {
   padding: 4rem 0;
   background-color: #e9ecef;
+  margin: 2.5rem 0 5rem 0;
 }
 
 .cta-info {
@@ -12184,6 +12188,75 @@ textarea.form-control-lg {
   color: #fff;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.footer {
+  margin-top: 5rem;
+  padding: 5rem 0;
+  background: #2b69ff;
+  color: #fff;
+}
+.footer__useful-links {
+  text-align: center;
+  margin: 1rem 0;
+  border-top: 2px solid #fff;
+}
+.footer__useful-links h3 {
+  margin-top: 1rem;
+}
+.footer__useful-links li {
+  list-style: none;
+  padding: 0.25rem;
+}
+.footer__useful-links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.25rem;
+}
+.footer__useful-links a:hover {
+  cursor: pointer;
+  transition-duration: 1s;
+  transition-property: all;
+  border-bottom: 2px solid #fff;
+}
+@media (min-width: 768px) {
+  .footer__useful-links {
+    color: #fff;
+    margin-top: 0;
+    border: none;
+    text-align: left;
+  }
+  .footer__useful-links h3 {
+    margin-top: 0;
+  }
+}
+.footer__get-in-touch {
+  text-align: center;
+  margin-top: 1rem;
+  border-top: 2px solid #fff;
+}
+.footer__get-in-touch h3 {
+  margin-top: 1rem;
+}
+.footer__get-in-touch p {
+  cursor: pointer;
+}
+.footer__get-in-touch i {
+  margin-right: 0.5rem;
+}
+@media (min-width: 768px) {
+  .footer__get-in-touch {
+    margin-top: 0;
+    border: none;
+  }
+}
+.footer__our-message {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer__our-message {
+    text-align: left;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

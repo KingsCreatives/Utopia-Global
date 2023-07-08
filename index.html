@@ -11,7 +11,7 @@
 </head>
 <body>
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark nav-menu shadow fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark nav-menu shadow fixed-top" id="top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <h1>Utopia<span class="text-black">.</span>ch</h1>
@@ -26,13 +26,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                <a class="btn btn-outline-light nav-btn">Contact Us</a>
+                <a class="btn btn-outline-light nav-btn" href="#contact">Contact Us</a>
                 </li>
             </ul>
             </div>
@@ -40,18 +40,20 @@
     </nav>
 
 <!-- Hero Section -->
-    <section class="home">
+    <section class="home" id="home">
         <div class="container">
             <div class="row align-items-center text-white">
                 <!-- Hero Text -->
                 <div class="col-md-6">
                     <h1 class="display-2">
-                        <span class="display-2--intro">Welcome to Utopia Creative Hub.</span>
+                        <span class="display-2--intro">Welcome to Utopia Global</span>
                         <span class="display-2--desc lh-base">We find the most elegant solutions to even the most challenging problems.</span>
                     </h1>
-                    <button type="button" class="btn btn-outline-light intro-btn" >
+                    <a href="#contact">
+                      <button type="button" class="btn btn-outline-light intro-btn" >
                         Get in touch
                     </button>
+                    </a>
                 </div>
                 <!-- Hero Img -->
                 <div class="col-md-6 text-end intros">
@@ -99,13 +101,16 @@
                     <div class="services__content">
                         <h3 class="display-3--title"> Web Application Development </h3>
                         <p class="lh-md">We design simple but elgant web applications make it easier to create, update, and maintain your software applications that run on the web. </p>
-                        <button type="button"  class="rounded-pill btn-rounded">Learn More...
+                        <!-- Learn More Button -->
+                        <a href="#contact">
+                          <button type="button"  class="rounded-pill btn-rounded">Learn More...
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                                 </svg>
                             </span>
                         </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -117,13 +122,16 @@
                         <p class="lh-md">
                         We create visually appealing and easy-to-use websites that help businesses build successful online presences.
                          </p>
-                         <button type="button"  class="rounded-pill btn-rounded">Learn More...
+                        <!-- Learn More Button -->
+                        <a href="#contact">
+                           <button type="button"  class="rounded-pill btn-rounded">Learn More...
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                           </svg>
                         </span>
                         </button>
+                        </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
@@ -144,13 +152,16 @@
                     <div class="services__content">
                         <h3 class="display-3--title">Mobile Application Development</h3>
                         <p class="lh-md">We design practical and technologically mobile apps for consumers and enterprises, that are super fast and efficient.</p>
-                        <button type="button"  class="rounded-pill btn-rounded ">Learn More...
+                        <!-- Learn More Button -->
+                        <a href="#contact">
+                          <button type="button"  class="rounded-pill btn-rounded ">Learn More...
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                                 </svg>
                             </span> 
                         </button>
+                        </a>
                     </div>
                 </div>
 
@@ -160,14 +171,17 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
                     <div class="services__content">
                         <h3 class="display-3--title">Graphic Design</h3>
-                        <p class="lh-md">We provide the needed expertise in helping clients maximise their online presence by creating world class graphics that ensures you stay on top.</p>
-                        <button type="button"  class="rounded-pill btn-rounded">Learn More...
+                        <p class="lh-lg">We provide the needed expertise in helping clients maximise their online presence by creating world class graphics that ensures you stay on top.</p>
+                    <!-- Learn More Button -->
+                    <a href="#contact">
+                          <button type="button"  class="rounded-pill btn-rounded">Learn More...
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
                                 </svg>
                             </span>
                     </button>
+                    </a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
@@ -180,12 +194,12 @@
     </section>
 
      <!-- PROJECTS -->
-     <section class="projects">
+     <section class="projects" id="projects">
       <div class="container">
         <div class="row text-center mt-5">
             <h1 class="fw-bold">Current Project</h1>
             <div class="heading-line"></div>
-            <p class="lead">Checkout some of our most recent works!</p>
+            <p class="lead mb-5">Checkout some of our most recent works!</p>
         </div>
         
         <!-- Projects -->
@@ -268,7 +282,7 @@
                     </div>
                     <!-- client img -->
                     <div class="testimonials__img">
-                      <img src="./img/testimonials/client-2.jpg" alt="" class="rounded-circle img-fluid">
+                      <img src="./img/testimonials/client-2.jpg" alt="happy client image" class="rounded-circle img-fluid">
                     </div>
                     <!-- client info -->
                     <div class="testimonials__info">
@@ -281,7 +295,7 @@
                   <!-- testimonial card -->
                     <div class="testimonials__card">
                       <p class="lh-lg">
-                        I was really struggling with my website before I found Utopia Creative Hub. The website was outdated and didn't look professional, and I was losing customers because of it. Thier team completely transformed my website, and now it's modern, sleek, and professional. My website is now my best marketing tool, and I'm so glad I found them.
+                        I was really struggling with my website before I found Utopia Global. The website was outdated and didn't look professional, and I was losing customers because of it. Thier team completely transformed my website, and now it's modern, sleek, and professional. My website is now my best marketing tool, and I'm so glad I found them.
                         <div class="ratings p-1">
                           <i class="fas fa-star"></i>
                           <i class="fas fa-star"></i>
@@ -293,7 +307,7 @@
                     </div>
                     <!-- client img -->
                     <div class="testimonials__img">
-                      <img src="./img/testimonials/client-5.jpg" alt="" class="rounded-circle img-fluid">
+                      <img src="./img/testimonials/client-5.jpg" alt="happy client image" class="rounded-circle img-fluid">
                     </div>
                   <!-- client info -->
                   <div class="testimonials__info">
@@ -305,7 +319,7 @@
                 <div class="carousel-item">
                   <div class="testimonials__card">
                     <p class="lh-lg">
-                      I was really nervous about working with a tech startup, but I was so glad I took a chance on Utopia Creative. They were so easy to work with, and they were always available to answer my questions. They really took the time to understand my needs, and they delivered a mobile app that was exactly what I was looking for. I would definitely recommend them to anyone who is looking for a great tech startup to help with their mobile apps or  a website.
+                      I was really nervous about working with a tech startup, but I was so glad I took a chance on Utopia Global. They really took the time to understand my needs, and they delivered a mobile app that was exactly what I was looking for. I would definitely recommend them to anyone who is looking for a great tech startup to help with their mobile apps or  a website.
                       <div class="ratings p-1">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -317,7 +331,7 @@
                   </div>
                   <!-- client img -->
                   <div class="testimonials__img">
-                    <img src="./img/testimonials/client-4.jpg" alt="" class="rounded-circle img-fluid">
+                    <img src="./img/testimonials/client-4.jpg" alt="happy client image" class="rounded-circle img-fluid">
                   </div>
                 <!-- client info -->
                 <div class="testimonials__info">
@@ -346,15 +360,16 @@
     <section id="contact" class="get-started">
       <div class="container">
         <div class="row text-center">
-          <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
+          <h1 class="display-3 fw-bold text-capitalize">Let's talk</h1>
           <div class="heading-line"></div>
-          <h3 class="lh-lg mb-3">
+          <h3 class="lh-lg mb-4">
             Providing the simplest solution for the most complex problem.
           </h3>
         </div>
     
         <!-- START THE CTA CONTENT  -->
         <div class="row text-white">
+          <!-- CTA Message Section -->
           <div class="col-12 col-lg-6 gradient shadow p-3">
             <div class="cta-info w-100">
               <h4 class="display-4 fw-bold">Have any Project in mind?</h4>
@@ -369,6 +384,7 @@
               </ul>
             </div>
           </div>
+          <!-- CTA Form Section -->
           <div class="col-12 col-lg-6 bg-white shadow p-3">
             <div class="form w-100 pb-2">
               <h4 class="display-3--title mb-5">Let us know how we can help you!</h4>
@@ -453,7 +469,50 @@
           </div>
     </section>
 
-   
+   <!-- Footer -->
+   <section class="footer shadow-lg">
+      <footer class="container">
+          <div class="row">
+              <div class="col-12 col-md-4 ">
+                    <div class="footer__our-message">
+                        <div class="logo">
+                            <div class="my-brand">
+                              <i class="fa-brands fa-opencart fa-2xl"></i>                              
+                              <h3 class="mb-5">Utopia.ch</h3>
+                            </div>
+                            <a href="#contact"><button class="btn btn-warning">Let's talk</button></a>
+                        </div>
+                    </div>
+              </div>
+
+              <div class="col-12 col-md-4 ">
+                    <div class="footer__useful-links">
+                          <h3 class="mb-3">Useful Links</h3>
+                          <ul>
+                              <li><a href="#home">Home</a></li>
+                              <li><a href="#services">Services</a></li>
+                              <li><a href="#projects">Projects</a></li>
+                              <li><a href="#contact">Contact</a></li>
+                              <li><a href="#faq">Faq</a></li>
+                          </ul>
+                    </div>
+              </div>
+              <div class="col-12 col-md-4">
+                  <div class="footer__get-in-touch">
+                        <h3 class="mb-3">Get In Touch</h3>
+                        <p><i class="fa-regular fa-envelope"></i>@Utopiach.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>+44 1632 960128</p>
+                        <p>#14 Warwick Avenue, Warwickshire</p>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="container text-center">
+            Copyright &copy; Utopia Creative Hub | All rights reserved.
+          </div>
+      </footer>
+      
+   </section>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
