@@ -78,12 +78,20 @@
         text-align: center;
 
         button{
-            // background: ;
+            font-weight: bold;
         }
 
         @include media-breakpoint-up(md){
             text-align: left;
         }
     }
+
+    .footer-header{
+        border-bottom: 2px solid #fff;
+    }
     
+    .copy-right{
+        padding-top: 1rem;
+        border-top: 1px solid #fff;
+    }
  }

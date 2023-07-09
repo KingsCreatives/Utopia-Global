@@ -12253,10 +12253,20 @@ textarea.form-control-lg {
 .footer__our-message {
   text-align: center;
 }
+.footer__our-message button {
+  font-weight: bold;
+}
 @media (min-width: 768px) {
   .footer__our-message {
     text-align: left;
   }
+}
+.footer .footer-header {
+  border-bottom: 2px solid #fff;
+}
+.footer .copy-right {
+  padding-top: 1rem;
+  border-top: 1px solid #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
